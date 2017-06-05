@@ -36,10 +36,12 @@ describe('circuit', () => {
             ]
           },
           Bootstrap: [],
-          Relay: {
-            Circuit: {
-              Enabled: true,
-              Active: true
+          Experimental: {
+            Relay: {
+              Circuit: {
+                Enabled: true,
+                Active: true
+              }
             }
           },
           Identity: {
